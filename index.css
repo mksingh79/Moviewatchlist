@@ -1,0 +1,112 @@
+body,
+html{
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+}
+
+h3{
+    width: 100%;
+    text-align: center;
+}
+
+.current-page{
+    font-size: xx-large;
+}
+
+#top-nav{
+    background-image: url("/images/backgroundtopnav.png");
+    height: 208px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+#nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#search{
+    
+    display: flex;
+    justify-content:center;
+}
+
+#movie{    
+    width: 50%;
+    border-radius: 5px 0 0 5px;
+    border: solid 2px grey;
+    border-right: none;
+    outline: none;
+    padding: 5px;
+    
+}
+
+#searchbtn{
+    border-radius: 0 5px 5px 0;
+    border: solid 2px grey;
+    cursor: pointer;
+}
+
+#movie-poster{
+    width: 200px;
+    height: 300px;
+}
+
+#movieContainer{
+    display: flex;
+    padding: 10px;
+    border: solid 2px black;
+    border-bottom: none;
+}
+
+#movie-list{
+    display: flex;
+    flex-direction: column;
+}
+
+#movie-watchlist{
+    display: flex;
+    border: solid 1px red;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#movieDetails{
+    width: 500px;
+    height: 300px;
+    padding: 0 10px;
+}
+
+#movieTitle{
+    font: bold;
+    font-size:x-large;
+}
+
+#movieYear,
+#movieRating,
+#movieRuntime,
+#movieGenre,
+#watch-list
+{
+    font-size: small;
+}
+
+#removebtn{
+    width: 100px;
+    height: 30px;
+}
+
+
+
